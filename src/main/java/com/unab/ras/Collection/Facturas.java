@@ -36,7 +36,7 @@ public class Facturas {
 	private Boolean estado;
 
 	@DBRef
-	private Clientes ClienteId;
+	private Clientes clienteId;
 
 	public String getId() {
 		return id;
@@ -111,11 +111,11 @@ public class Facturas {
 	}
 
 	public Clientes getClienteId() {
-		return ClienteId;
+		return clienteId;
 	}
 
 	public void setClienteId(Clientes clienteId) {
-		ClienteId = clienteId;
+		this.clienteId = clienteId;
 	}
 
 }
